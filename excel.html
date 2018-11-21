@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小满桌面端接口自动化测试报告</title>
+    <style media="screen">
+        a.button{
+            background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+        }
+        .tableA {
+            border-collapse: collapse;
+        }
+
+        .tableA .title th {
+            height: 50px;
+            font-size: 24px;
+            font-family: '微软雅黑';
+            font-weight: 700;
+            text-align: left;
+        }
+
+        .tableA tr th {
+            padding: 0 20px;
+            border: 1px #000 solid;
+            height: 40px;
+            background: #efefef;
+            text-align: left;
+        }
+
+        .tableA tr td {
+            padding: 0 20px;
+            font-size: 14px;
+            border: 1px #000 solid;
+            height: 40px;
+            text-align: left;
+        }
+
+        .tableA .footer td {
+            font-size: 14px;
+            font-weight: 700;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <table bordercolor="black" class="tableA">
+        <tr class="title">
+            <th colspan="5">小满桌面端接口自动化测试报告</th>
+            <td colspan="2">
+                <a href="mailto:yvonne@xiaoman.cn?cc=yves00001@163.com&bcc=1511075231@qq.com&subject=【版本:V1.0.2】小满桌面端接口自动化测试报告&body=附件为：小满桌面端接口测试报告，请注意查收！</br><br>版本:V1.0.2；</br><br>测试时间:<script>document.write(Date());</script>;" class="button">
+                    将测试报告发邮件给Yvonne
+                </a>
+            </td>
+        </tr>
+        <tr class="title">
+            <th colspan="7">软件基本信息</th>
+        </tr>
+        <tr>
+            <td colspan="1">软件版本</td>
+            <td colspan="6">V1.0.2</td>
+        </tr>
+        <tr>
+            <td colspan="1">测试人员</td>
+            <td colspan="6">Yvonne</td>
+        </tr>
+        <tr>
+            <td colspan="1">测试时间</td>
+            <td colspan="6">
+                <script>document.write(Date())</script>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">点击下载release版本</td>
+            <td colspan="2"><a href="https://app-portal.xiaoman.cn/release/Xiaoman%20Setup%201.0.1.exe" class="button">Windows下载</a></td>
+            <td colspan="3"><a href="https://app-portal.xiaoman.cn/release/Xiaoman-1.0.1.dmg" class="button">Mac下载</a></td>
+        </tr>
+        <tr class="title">
+            <th colspan="7">测试结论</th>
+        </tr>
+        <tr>
+            <td colspan="1">总用例数</td>
+            <td colspan="1">5</td>
+            <td colspan="1">
+                <font color='blue'><b>测试结论</b>></font>
+            </td>
+            <td colspan="4">
+                <font color='red'>fail</font>
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <td>
+                <font color="green">pass数</font>
+            </td>
+            <td>
+                <font color="green">21</font>
+            </td>
+            <td>
+                <font color="red">fail数</font>
+            </td>
+            <td>
+                <font color="red">34</font>
+            </td>
+            <td>其他</td>
+            <td colspan="2">67</td>
+        </tr>
+        <tr class="title">
+            <th colspan="7">测试内容</th>
+        </tr>
+        <tr>
+            <th>编号</th>
+            <th>测试文件名</th>
+            <th>测试文件路径</th>
+            <th>前端接口名</th>
+            <th>Php接口名</th>
+            <th>测试结果</th>
+            <th>备注</th>
+        </tr>
+        <tr>
+            <td id='testcaseId001'>编号</td>
+            <td id='testcaseFileName001'>测试文件名</td>
+            <td id='testcaseFilePath001'>测试文件路径</td>
+            <td id='interfaceFront001'>前端接口名</td>
+            <td id='interfacePhp001'>Php接口名</td>
+            <td id='testcaseRsult001'>测试结果</td>
+            <td id='testcaseRemark001'>备注</td>
+        </tr>
+        <tr>
+            <td>小黄</td>
+            <td>男</td>
+            <td>20</td>
+            <td>2班</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>老王</td>
+            <td>男</td>
+            <td>29</td>
+            <td>3班</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+    <script src="helloworld.js"></script>
+
+</body>
+
+</html>
