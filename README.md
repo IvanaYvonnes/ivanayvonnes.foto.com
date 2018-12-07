@@ -1,18 +1,18 @@
 # <a href="excel.html">ivanayvonnes.foto.com</a>
->a foto website built by ivanayvonnes
+    a foto website built by ivanayvonnes
 
 want to say something...
->i love travelling,love taking photoes,love nature,love different cultures.
+    i love travelling,love taking photoes,love nature,love different cultures.
 
 
 # 想做什么？
-一个网站
+    一个网站
 
 # 网站上有什么？
-照片
+    照片
 
 # 关于什么的照片？
-everything
+    everything
 
 # 为什么要做这个？
     1，想锻炼自己的编程能力
